@@ -1,0 +1,90 @@
+[ch04_dark_patterns]
+== Dark patterns
+The previous chapter about design patterns will help create better and more enjoyable products and services. The effects of not correctly implementing those may lead to annoyed or frustrated customers, but if they need your product without an alternative, then they may still use it. Dark patterns are the opposite of design patterns. The primary focus is to trick people into doing things they would normally not do.
+
+=== Addiction
+How to protect our children from making financial mistakes? Alcohol, drugs, cigarettes are age-restricted for good reasons. What is the best approach to protecting people from creating a harmful addiction?
+
+At a social level, this is something where communities can help people. They should stimulate open conversations about these issues. Sites such as exchanges should include links for help and do KYC checks. Those who have a huge amount of followers should include preventative measures such as warnings.
+
+Speculating on price can be dangerous. 90% lose money. Because of this, they often lost more than they could afford, taking too much of a risk. But even worse, it also affects people's physical and mental health. People have already been going to clinics for this or committed suicide.
+
+=== Confirmation bias
+Confirmation bias is the tendency to search for, interpret, favor, and recall information in a way that affirms one's prior beliefs or hypotheses. It is a type of cognitive bias and a systematic error of inductive reasoning. People display this bias when they gather or remember information selectively or when they interpret it in a biased way. The effect is stronger for desired outcomes, for emotionally charged issues, and deeply-entrenched beliefs.
+
+Instead of focussing on differences, talk about the aspects which are the same or which can be used together to strengthen both. Stimulate the creation of differences. More explorations will lead to more solutions so that everyone may benefit. Share knowledge, people, and code.
+
+The negative happens when people advocate only one coin as the one true solution. This creates toxic communities and maximalism. They act as if it is a zero-sum game with only one winner. Also, sometimes people such as Youtubers are paid to promote and highlight certain perspectives. This leads to a fear of missing out and limited offers.
+
+=== Confirmshaming
+Were you ever tricked into buying something you regretted afterward? Did they make you feel guilty or pressured at that moment right before you bought it? You may not be the only one who fell for this trick of guilting into opting in. Confirmshaming is when the product or commercial encourages the users to do something "positive" (like subscribing to a newsletter) by shaming them if they won't do it.
+
+Don't tell people they are missing out, or when they were too late. Or worse than you were earlier then they were. Stay humble.
+
+This happens a lot in social media, where people are ridiculed for not taking part. This leads to fomo-ing.
+
+=== Dunning–Kruger effect
+Do you think you know everything there is to know about something? Well, think again. Often the more you learn about something, the more you find out that you about the things that you do not know yet. The Dunning-Kruger effect is a cognitive bias in which people think they are smarter than they are, and because they live in this illusion for long - they never admit the reality that they may be lacking. David Dunning and Justin Kruger described this phenomenon, hence the name.
+
+Promote and include information and education. Show how many pieces there are to show the gaps in people's lack of knowledge.
+
+People overestimate their assumptions and knowledge on Bitcoin, be it price or development speed. Bitcoin is complex and is a non-correlated asset.
+
+=== Friend Spam
+Spam (not the meat) is still one of the most effective ways of bringing certain products or services under attention. Yet, most people are not eager to receive these messages because often they are more harmful than helpful. In some cases, you yourself are responsible for giving personal information away to third parties who may contact you in the future with "exciting new opportunities." But in some cases, your friends or contacts may be responsible for giving away your contact information in exchange for a small benefit. When they do, they befell for the friend spam pattern.
+
+The product asks for your email or social media permissions under the pretense it will be used for a desirable outcome (e.g., finding friends), but then will spam all your contacts in a message that claims to be from you. Focus on natural adoption, rather than peer-pressure.
+
+This often happens when ICO's or other companies want to spread their message in return for free coins, discounts, or other benefits.
+
+=== Hidden Costs
+Who never fell for a "too good to be true" deal, only to find out that at last step of the checkout process, only to discover some unexpected charges have appeared, e.g., delivery charges, tax, etc.
+
+The way costs are hidden due to the lack of full transparency about all costs along the way.
+
+Just list fees clearly and make them adjustable transaction speed versus cost. Some people are surprised when paying $3,60 tx fees for a $20,00 transfer. Clearly show them why they pay more and offer them a choice between fast confirmation and fees.
+
+=== Limited time
+"Buy today, or wait for another year!" The limited-time practice is often used to create a false sense of urgency. When there is a reason to design for time-critical actions, like people dying or need to take their medicine, then this practice is justified. However, what makes the pattern limited time a dark pattern is because the time-critical aspect is created and driven by the creators of a product or service.
+
+Often used by ICO's, used to create FoMo (fear of missing out). It is also related to a perceived scarcity.  
+
+Limited time happens when people are not given enough time to onboard. Allow people the time to do research. Allow people the time to create their own opinions.
+
+=== Misdirection
+The design purposefully focuses your attention on one thing to distract your attention from another. Focus on speed, neglect security.
+
+Misdirection is used for promoting products and services. Often they include what they are better at in comparison, but neglect the things which they are sacrificing.
+
+Be transparent open about the limitations of a system by showing all information. Explain why certain decisions or compromises have been made.
+
+=== Privacy Zuckering
+When you are tricked into publicly sharing more information about yourself than you wanted or intended to, then you may succumb to privacy zuckering. This pattern is named after Facebook CEO Mark Zuckerberg, who lies under scrutiny for giving or selling personal information to third parties. Giving away personal information is not without risks. It can be used for good, but also for bad. Identity theft, extortion, and scamming people is happening every day due to the loss and theft of personal data. Keeping personal data safe and secure should be a top priority for everybody.
+
+It is typically used in exchange for free tokens. But an upcoming trend is seen within exchanges that need to comply with AML and KYC regulations. People willing to buy cryptocurrencies are required to send personal documentation to be stored and validated by private companies. 
+
+Consider other revenue models where both sides may benefit. When giving away something for free, like a bitcoin faucet, do not collect personal information. Create solutions that enhance people's privacy. If personal data is required, consider opt-in models. And also include opt-out and complete removal of personal information if people indicate their right to be forgotten.
+
+=== Rent-seeking
+Rent-seeking is a concept in public choice theory as well as in economics that involves seeking to increase one's share of existing wealth without creating new wealth. Rent-seeking results in reduced economic efficiency through misallocation of resources, reduced wealth-creation, lost government revenue, heightened income inequality, and potential national decline.
+
+From a business perspective, rent-seeking is very appealing because it allows for a passive income at the cost of nearly nothing. Who does not like to be in this position? Unfortunately for those intermediaries who profit from this, these kinds of activities are at risk of being replaced by cheaper and more efficient technologies. 
+
+The challenge in the Bitcoin ecosystem is to find waste and remove things that add no value. Since much of the code is open-source, it will become easier to automate and replace people and services that profit from connecting things.
+
+=== Reciprocity
+Reciprocity is listed both under the strategic design principles as it is under dark patterns. As with so many other things, how the act is used, determines the outcome. The tendency for people to give back to those who have given to them.
+
+In cultural anthropology, reciprocity refers to the non-market exchange of goods or labor ranging from direct barter (immediate exchange) to forms of gift exchange where a return is eventually expected (delayed exchange) as in the exchange of birthday gifts. It is thus distinct from the true gift, where no return is expected. When an exchange is immediate, e.g., in barter, it does not create a social relationship. When the exchange is delayed, it creates both a relationship as well as an obligation for a return (i.e., debt). Hence, some forms of reciprocity can establish a hierarchy if the debt is not repaid. The failure to make a return may end a relationship between equals. Reciprocal exchanges can also have a political effect through the creation of multiple obligations and the establishment of leadership, as in the gift exchanges (Moka) between Big Men in Melanesia. Some forms of reciprocity are thus closely related to redistribution, where goods and services are collected by a central figure for eventual distribution to followers. Negative reciprocity occurs when an action that harms someone is returned with an action that has an approximately equal negative effect. For example, if an individual commits a violent act against a person, it is expected that a person would return with a similar act of violence. If, however, the reaction to the initial negative action is not approximately equal in a negative value, this violates the norm of reciprocity and what is prescribed as allowable. Retaliatory aspects, i.e., the aspects of trying to get back and cause harm, are known as negative reciprocity. This definition of negative reciprocity is distinct from the way negative reciprocity is defined in other domains. In cultural anthropology, negative reciprocity refers to an attempt to get something for nothing. It is often referred to as "bartering" or "haggling."
+
+=== Scarcity
+Scarcity becomes a dark pattern when it negatively manipulates people's behavior for the benefit of others. One example is to trick people into pressure buying at a certain moment (FOMO). 
+
+Focus on uniqueness instead of scarcity. Allow for unlimited post-personalization and -customization instead of pre-defined limited editions.
+
+=== Social proof
+We often look up to experts. We often follow what our friends do and say. Social pressure, when not following the herd. 
+
+Social media (Youtubers) often shill their bags after they already bought their share first.
+
+Focus on what people do, rather than what people say. Objectify as much as possible. Do not include social pressure — partner with people who have a good reputation and not one of selling things to others.
