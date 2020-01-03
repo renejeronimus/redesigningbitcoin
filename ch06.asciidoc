@@ -1,0 +1,159 @@
+[ch06_building_on_bitcoin]
+== Building on Bitcoin
+Not everybody willing to contribute is a Bitcoin core developer nor aspires to become one. Fortunately, there are other things than the platform to help with and create. If not already, then soon, most development will not be spent on further developing the Bitcoin platform, but on the things around it. This chapter takes a look at some of the products, services, and activities within the Bitcoin ecosystem, excluding Bitcoin itself. 
+
+=== Banking services
+Wherever money flows, banking services are likely to be a part of the process. As long as these services add value or reduce friction, people are more than willing to pay for them. Ideally, these services will become decentralized, removing the intermediaries and replacing them with a trusted system such as Bitcoin. But until the underlying systems are ready and tested, custodians will likely continue to play a role by offering promises of consumer protection and excellent customer service. Many of these services will fall under the category of decentralized finance, offering the services previously only provided by banks, but now integrating with and supporting a range of blockchain technologies.
+
+Three popular financial services that will likely continue to exists are storing, lending, and bartering. The most common of these three is leaving cryptocurrencies under the custody of an exchange or a financial institution. Protecting customer funds has been a good enough reason for many people. But new players are just around the corner offering new services such as bartering and lending. Their business model is to use consumer funds to either gain interest or to provide fiat-pegged cryptocurrencies for collateral. In all situations, people need to trust these intermediaries for managing people's assets.
+
+The future seems to be heading towards more decentralized finance. Smart-contracts, multi-sig transactions, and time-locks may likely become more mainstream and suitable for multi-party lending and settlements. There may still be third-parties offering simple-to-use products that facilitate these services. But the main difference is that these third-parties will no longer be in control over the assets. Instead, their role will be more of a marketplace for customized, peer-to-peer lending.
+
+=== Central bank digital currencies
+For many years governments perceived cryptocurrencies as speculative assets not suited for anything else than illegal activities. But it wasn't until Facebook (and partners) announced their plans for a stable cryptocurrency that made some countries consider the impact of borderless digital money competing with the euro, dollar, and alike.
+
+In the next decade, it is likely that central banks will investigate more about central bank digital currencies (or CBDC's) and how to upgrade their legacy systems with some features from cryptocurrencies. The question is what impact this will have on stable-coins and if these will remain relevant. Their future may depend on the differentiating factors that CBDC's are unlikely going to support.
+
+=== Community development
+People are social beings and seek to find other people of interest who bring value and happiness into their lives. With millions of users, Bitcoin brings people together. If nobody puts any effort into community development, then this might mark the end of Bitcoin as well. When a community grows, Bitcoin as an ecosystem will grow as well.
+
+With more and diverse people joining a community, new rituals are formed and shared. These worldwide initiatives are already happening, such as Bitcoin pizza day, where people buy and eat pizza in remembrance of the first commercial bitcoin transaction. Or proof of keys, to create awareness for digital ownership. This yearly ritual where people jointly move their cryptocurrencies from exchanges and transfer them to an address of which they control the keys.
+
+Healthy communities strive the most by stimulating inclusivity and diversity. Everyone should be equally treated and free to contribute in their ways. When communities strive to achieve specific goals collectively, it will bring people closer together and helps benefit everyone instead of small groups of individuals. 
+
+=== Decentralized oracles
+Decentralized oracles promise to solve the problem of translating reliable, neutral data from outside the network to be used within. This approach should extend the use-cases for general smart-contracts where settlement relies on neutrally incentivized, independent parties, instead of trusted third-parties who might benefit from data modification.
+
+Use-cases that may benefit significantly from oracles are supply chains. This way, blockchain solutions can keep track of the physical changes that happen to products and services and add this information to the blockchain. These changes can be handovers between different parties, or sensors that validate the conditions or state during an event or timespan. But who guarantees that the information put onto the blockchain is indeed correct? There needs to be a certain level of trust for sending reliable information to an oracle. One approach is to verify the data by third parties and punish falsifying information. When designing for these kinds of use-cases, it is crucial to consider all touchpoints within the digital and physical domain from start to finish.
+
+Making things tamper-proof is challenging. One of the most difficult challenges to solve is the reliability of information when it transitions from the physical to the digital domain (and back). "Garbage in, garbage out," is a pattern that is very applicable for oracles. If this problem can be solved, then it will open a lot of new opportunities. Right now, the best solution is to reward good behavior and punish bad behavior. 
+
+=== Decentralized organizations
+Centralized authorities with power cannot be trusted to always act in the best interest of the community. Since most organizational structures are hierarchical, management at the top is responsible for making the most critical decisions for that organization. Decentralized organizations try to solve this problem by replacing decision making by a select few, to decision making based on transparent smart-contracts.
+
+DAO's are independent entities that operate on the blockchain. These entities can be a group of people, autonomous machines, or both. Most decision making at this time is relatively simple and includes aspects such as voting, upgrades, or simple fund-management. The current approach seems to be a focus on doing one thing well instead of many complicated things poorly. One of the major concerns is security. The past showed us that a hacked smart-contract could have devastating consequences.
+
+But with increasing confidence, DAO's will likely continue to mature and become applicable for an increasing number of uses. Instead of one big smart-contract, DAO's will most likely consist of multiple, modular smart-contracts with self-contained logic. This approach not only makes it easier to maintain but also to verify and test potential flaws.
+
+=== Decentralized web
+Centralized web-solutions can act biased or censor specific groups of people. Gone are the days where individual people review the quality of the content according to the platform's rules. Machine learning is taking over this process by scanning content and customer reports of inappropriate content. And although this may be a practical approach at scale, there are numerous incidents of incorrect content blocks by these large social media companies. The decentralized web tries to solve this problem with a combination of tools needed to host unstoppable and uncensorable websites.
+
+Solutions such as NOS, Elastos, IPFS use these to build their platform. 
+One of the problems is adoption. The gap is too large. They try to tackle all, but people often only need part of a solution. 
+
+It's too early for complete solutions. Instead of tackling everything, there might be opportunities in building bridges instead. Standardization might help to make things as easy as plug-and-play.
+
+=== Digital open marketplace
+A place where people can find value and developers can collaborate and reuse third-party services to combine them.
+
+=== Decentralized exchanges
+People need to be in control over their private keys. Centralized exchanges are riskier targets for attacks from hackers.
+
+Exchanges are needed to onboard people into bitcoin. They need to offer solutions such as buying, selling, and trading.
+
+People don't like KYC. Give some additional examples of how to redesign this, and why. What is the role of exchanges? Education or custodians?
+
+=== Educational systems
+There is a lack of neutral, unbiased educational systems that help people learn about blockchain technologies such as Bitcoin.
+
+Where do people start when getting familiar with Bitcoin? Is it the bitcoin.com or bitcoin.org website or perhaps Wikipedia? Most likely, people will start off Googling the word, which leads to millions of search results linking to news articles and exchanges. The question is, how can we explain what Bitcoin is as a starting point and from there gradually and safely onboard them. The goal is to give people the right information to not only make the right decisions but also give them the tools and skills to take action.
+
+=== Gateways
+The blockchain ecosystem is exploding. There are thousands of cryptocurrencies listed on coinmarketcap.com at the time of writing. Many of these currencies share an underlying blockchain infrastructure, but many are deployed on their own blockchain with unique features. Implementing different blockchain protocols offers particular benefits for users of the system, so various blockchains are created to suit their creators goals. Variety in design creates a healthy, scalable, and resilient ecosystem, but creates its own problems. Disparate blockchains are isolated environments and transferring value between them is difficult. We currently rely on centralized exchanges which can be slow and expensive. Creating programmatic connections between blockchains to ease transfer of value is an important factor for mass adoption of these systems. A two way pegged gateway allows users of a blockchain to deposit the native cryptocurrency of a blockchain and receive the cryptocurrency of another blockchain on the other network. A classic example of this system is BTC Relay, which acts as a peg between Bitcoin (BTC) and Ethereum (ETH). Holders of bitcoin can send BTC to a Bitcoin address, thereby releasing a certain amount of ETH on their behalf on the Ethereum blockchain. 
+
+Interesting things may happen when bitcoins can be used to run smart contracts on more flexible blockchains such as Ethereum.
+
+=== Help and care
+Too much seduction, too little prevention.
+
+There are too few social programs where people with problems caused by cryptocurrencies can turn to — especially the care for people when things already went wrong. 
+
+Professional help such as addiction centers. Companies involved should at least devote a percentage of their gains to alone or collaboratively support professionals able to help people get their lives back on the rails. Doing good and showing well is also good for your reputation. Help existing professionals with their crypto knowledge.
+
+Those who have problems or those who see others struggling should safely and securely be able to access information about help & care. Remove as many obstacles and barriers as possible.
+
+=== Heritage planning
+People die. And when they have nothing planned, their heritage may become lost forever. What is your plan if you end up in a situation where you are unable to explain that you own crypto assets. Do you have something planned for this? Wallets and private keys. Writing a will. Telling at least one person about it. How is your next of kin able to access your assets? Crypto inheritance planning book.
+
+=== Incentivized economy
+People need an incentive in order to get them to act. When micropayments can be integrated into everything, people are incentivized to contribute. 
+
+Think about getting paid to report or solve bugs, get tipped by writing high-quality content. People and machines are paid by the outcome they produce. Let people and machines get paid for every second of the service they provide. Micro-transactions should be fast and cheap.
+
+=== Multi-channel integration
+Solutions better match the products people are already using in their day-to-day lives. Products only aim at one thing. But is this enough?
+
+Although I expect that wallets will become feature-rich portals to products and services, they will not be the only interface to use cryptocurrencies. In the first phases, it is more likely that there will be a blend between the old and the new world. This means that existing mobile apps and desktop software will likely integrate bits and pieces of cryptocurrency support into their products. The first attempts will be ugly, like plug-ins or stand-alone apps. But eventually, it will be much more seamlessly integrated into the existing user interface.
+
+Are people able to pick and choose? Or do they use only 10% of their tools? Then more variations will appear in more shapes and sizes. Payments via smart-watches, credit & debit cards, or other IoT devices that are in one way or another connected. Most are owned and controlled by people. But eventually, more devices will be connected autonomously at scale and controlled by local governments or groups of investors.
+
+=== Productivity
+Removing financial intermediaries implies fewer people needed. Will fire people. More efficient.
+
+=== Replacing financial trust
+Removing financial intermediaries. Trust bitcoin and blockchain.
+
+=== Replacing cash
+Fewer paper bills. War on cash.
+
+=== Smart payments
+Money can be made flexible by everyone. One of the problems of traditional digital money is that only banks are able to get creative with processing money. But with Bitcoin, it is now possible for everyone with some programming skills to create new smart payment services, which were not possible yet.
+
+One example is micro-payments, which allows transactions smaller than 1 cent. Through the use of the lightning network, it is now possible to send the small amounts or satoshis with little to no fees. Building on top of this, people can create business models based on smaller units of measurements. Imagine paying someone per second of their time, per every word that is written, every milligram of food, or every meter that a vehicle has driven.
+
+With bitcoin, you would need to authorize the payment monthly every single month, which is a huge hassle for most people. In the future, we might be able to use a smart contract for recurring payments, but we're not there yet. For now, Patreon represents the best option for this kind of ongoing fundraising. A consistent, recurring stream of income allows me to budget and plan for the long term. 
+
+=== Stable coins
+This might be a good intermediate transition from digital fiat currencies to bitcoin. Their lives are already suited for stable prices. Bitcoin as a currency is not yet this.
+
+The world still used euro and dollars as a medium of exchange. Stablecoins might be a step between bitcoin and fiat. Familiarity - Libra.
+Putting myself in Facebook's position, what you are saying is what I would do if I were them. Right now, more then 95% isn't ready for Bitcoin. People will sacrifice their privacy (usage) for convenience. Will it help or hurt global adoption? I believe it might be a stepping stone to bypass banks via companies they already use. Does the majority of people care about decentralization? Bitcoin pegged stable coins.
+
+=== Token governance
+People are emotional beings. Governing this via tokens and contracts may be helpful for sustainable businesses.
+
+One thing Ethereum is good at is governance via smart contracts. Young startups are blowing ICO cash like it is nothing. It would be in the best interest of owners and shareholders if more decision making would end up in smart contracts. Token holders can have some control on how well their investments are spent by the founders. Spend slowly instead of fast and dying. Or prevent scams.
+
+=== Unstoppable markets 
+Supply and demand create new and existing markets. Decentralization creates something that cannot be turned down easily. In the future, this might apply to a lot of technical aspects such as domains, file storage, or hiring CPU power to perform some tasks.
+
+In most cases, buying, lending, or ownership of certain products and services is not illegal. The crux, however, is in the way of using it. Freedom of speech is often seen as a greater good. But expressing hate and violence is crossing the line of what humanity as a whole finds acceptable. So, where the technology may be neutral by itself, putting this to bad use may lead to some questionable situations in the future.
+
+Since much of this is new and laws are often not created yet, how should we deal with this? Who will be responsible when an actor uses technology for bad things? Or can we help designers and developers create better software? Some guidelines, like the core principles, should help already. Transparency, decentralized control, and the open-source nature of code and documents make sure that the community as a whole can see and interact along the way. 
+
+Are the creators responsible for keeping out bad actors? Can they be held accountable when damage is done or when people die? How can we prevent situations like Ross Ulbricht and the Silk Road? [6]. Do we want a future wherein developers pro-actively and protectively remain anonymous when creating software? Another approach designers are familiar with is to create filters. Filters can be used to block malicious or age-restricted content. Filters can be customized based on laws and regulations. Ignoring them is, therefore, done intentionally by the user. This is just one simple example. And more solutions and discussions need to take place in the future.
+
+=== Wallet apps
+Apps on your own computer. Web-apps are light wallets, online, and browser-based.
+
+The quality and diversity are too diverse. Focus on standardization and good design. Short term: Language: wallets should be available in more languages other than English. Especially for developing countries.
+
+=== Wallet custodians
+Exchanges
+risks & rewards
+no keys
+protection
+
+=== Wallet hardware
+Ledger, Trezor, KeepKey, Samsung smartphone.
+
+=== Wallet of paper & steel
+Quite a lot of people prefer to store their private keys and mnemonic seed phrases as a back-up on physical materials such as paper, steel, or other materials. Paper wallets are what the name implies, generated wallet addresses, and keys to be printed on paper. This makes them easy for gifting or storing funds offline. Those who receive this gift can import the private key or seed phrase at any time into a compatible wallet app for sending and receiving transactions. 
+
+When choosing to create or use a non-software wallet, there are some considerations to keep in mind. The most important choice is the material of the wallet. Paper wallets are relatively cheap to create and well suited for gifting or as a back-up for a few years. However, paper and ink are more likely to lose their quality over time. In addition, the paper does not cope well with water, heat, smoke, or fire. A more expensive option, which is more durable, is a wallet made of metal.
+
+How should we redesign this?
+Stimulate offline generation of keys
+Give warnings when generating online and why this is more dangerous.
+Include instructions and explanations on the printed wallet itself
+include trusted software wallet links which work well with the paper wallet
+Do not create legacy addresses by default but generate Segwit instead.
+Allow advanced options for generating legacy addresses.
+Explain possible import problems when generating addresses.
+Most paper wallet generators only come in small sizes, hard to read.
+They do not consider importing them into safe bitcoin wallet apps for use.
+When used for gifting, they should look more fun — customization like birthday cards. 
+Include an area to write down the amount.
+
+=== Wallet of the mind
+Easy to remember but easy to lose.
