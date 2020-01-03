@@ -1,0 +1,7 @@
+[ch07_dont_trust_verify]
+== Don't trust, verify
+Use these references to double-check the information written by this author.
+
+. "Bitcoin Design Principles - IDEO Lab presentation by Andreas M. Antonopoulos," http://youtube.com/watch?v=Ur037LYsb8M
+. Bitcoin whitepaper, "Bitcoin: A Peer-to-Peer Electronic Cash System," http://bitcoin.org/bitcoin.pdf
+. "The Five Pillars of Open Blockchains," http://youtube.com/watch?v=qlAhXo-d-64
