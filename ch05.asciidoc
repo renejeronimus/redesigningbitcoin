@@ -1,0 +1,159 @@
+[ch05_destroying_bitcoin]
+== Destroying Bitcoin
+The German philosopher Friedrich Nietzsche once said, "That which does not kill us makes us stronger." This mindset is very applicable to Bitcoin. Ever since it's conception, Bitcoin had to resist all sorts of attacks by all kinds of people declaring Bitcoin being useless and worth nothing. However, Bitcoin has shown them wrong and is stronger than ever, giving its honey badger status for being smart and tough as nails. It even has its obituary to prove it.
+
+It is good to put Bitcoin under a loop and test it until it breaks. If it does not, then surely it will last a while longer. Or so states the Lindy effect. This chapter is a collection of arguments about why Bitcoin will eventually become worthless.
+
+=== Accountability
+"Those who run the network should be held accountable for offering a platform."
+
+Governments do not like what they cannot control. Especially when it comes to money, there needs to be accountability when things go wrong. Bitcoin, by design, is not this. No Bitcoin company can be shut down and no CEO, which can be held responsible. Instead, accountability lies with the people using the system. Decentralized systems like Bitcoin are by default neutral and with that censorship-resistant. Individuals should be responsible for their actions.
+
+=== Complexity
+"You need to be an expert to understand and use Bitcoin."
+
+The best kind of technology is the one which is invisible, and nobody even needs to think about how to use it. Complex solutions may work well for machines, but humans may struggle with it. If Bitcoin is not usable for everyone in daily life, it prevents or even excludes people to adopt and use it. Unlike many people currently using Bitcoin may believe, the average person who is not familiar with Bitcoin does not need to know everything about it. No matter where people live, ideally, they only need to know the basics of Bitcoin. Maybe in the future, nearly every household has a smart device which includes a Bitcoin node to validate transactions. But for the next decade, it is perfectly fine if people do not completely understand how the Bitcoin network operates. All they need to know is that Bitcoin can be used with ease, always works as expected, and can be trusted as money for those with a small and large budget. Even children know how to use it. Like the Internet, all new technologies need some time to adapt to daily use without people even needing to think about how it works.
+
+=== Cryptography
+"Quantum computers will break Bitcoin's cryptography."
+
+SHA-256 and ECDSA are considered very strong currently, but they might be broken in the far future. If that happens, Bitcoin can shift to a stronger algorithm. Yes, eventually, this could happen. But quantum computers are currently not yet capable of doing this. Meanwhile, multiple new solutions are being explored to become quantum resistant.
+
+=== Denial of service (DoS) attacks
+"The more decentralized the Bitcoin network becomes, the slower it becomes when put under stress."
+
+Sending lots of data to a node may make it so busy it cannot process normal Bitcoin transactions. Bitcoin has some denial-of-service prevention built-in but is likely still vulnerable to more sophisticated denial-of-service attacks. 
+
+There are many measures taken in the current Bitcoin Satoshi client to protect itself from DoS attacks. A more extensive list can be found in the references. But to give some idea, here are some measurements. A lot of traffic is prevented by not forwarding orphan-transactions/blocks, double-spend transactions, the same block, transaction, or alert twice to the same peer. Nodes that misbehave are banned for a certain time (24-hours default), and a DoS score is kept for peers that send messages that fail to comply with the rules. To further prevent DoS attacks, there are protocol rules to limit and restrict the amount of information. Examples are restricting the block size, size of each script, number of expensive operations, and signature checks. A DoS attack could paralyze single or multiple nodes, but attacking every Bitcoin node at the same time is very difficult.
+
+=== Energy consumption
+"Bitcoin consumes more energy than an entire nation like Denmark."
+
+Energy consumption for mining has a high correlation with bitcoin value (exchange rate). Because variable costs of mining are dominated by electricity prices, the economic equilibrium for the mining rate is reached when global electricity costs for mining approximate the value of mining reward plus transaction fees. So the higher the value of one bitcoin, the higher the value of mining rewards and transaction fees, the higher the energy consumption of the bitcoin network in the long run. More efficient mining gear does not reduce the energy use of the bitcoin network. It will only raise the network difficulty cheaper energy linearly increases mining energy use of the bitcoin network. The same conclusions apply to all proof of work-based currencies. The energy which is used for mining is essential for its extreme security, neutrality, and immutability. But it also stimulates miners to turn to renewable and even wasted sources of energy if they want to stay profitable.
+
+=== Exclusion
+"Governments will criminalize people using Bitcoin."
+
+Banning Bitcoin will only result in an increased focus on privacy protection, driving it more into uncontrolled illegality. Additionally, it will migrate people and companies from their country to become profitable somewhere else.
+
+=== Fifty-one percent attack
+"When a single entity or group of entities control fifty-one percent of the hashing power, they will be able to control the Bitcoin network."
+
+An attacker that controls more than 50% of the network's computing power can, for the time that he is in control, exclude and modify the ordering of transactions. This allows them to reverse transactions and confirmations for any transaction that had previously been seen in the blockchain while he's in control. But also prevent some or all transactions from gaining any confirmations or prevent some or all other miners from mining any valid blocks.
+
+But what the attacker cannot do is reverse other people's transactions without their cooperation (unless their coin history has been affected by a double-spend), prevent transactions from being sent at all (they'll show as 0/unconfirmed), change the number of coins generated per block, create coins out of thin air, or send coins that never belonged to the attacker.
+
+With less than 50%, the same kind of attacks are possible, but with less than 100% rate of success. For example, someone with only 40% of the network computing power can overcome a 6-deep confirmed transaction with a 50% success rate. It's much more difficult to change historical blocks, and it becomes exponentially more difficult the further back you go. As above, changing historical blocks only allows you to exclude and change the ordering of transactions. If miners rewrite historical blocks too far back, then full nodes with pruning enabled will be unable to continue, and will shut down; the network situation would then probably need to be untangled manually (e.g., by updating the software to reject this chain even though it is longer). Since this attack doesn't permit all that much power over the network, it is expected that rational miners will not attempt it. A profit-seeking miner should always gain more by just following the rules, and even someone trying to destroy the system might find other attacks more attractive. Probably the most likely scenario where this attack would be employed would be for a government to try to get control over Bitcoin by acquiring a majority of hashing power (either directly or by enforcing rules on private miners within its borders). Then this government could use the transaction-censorship power listed above to do things like: Prevent any transactions spending "stolen" coins, effectively destroying those coins. If the coins are stolen, then there is a risk that this action will be accepted by the Bitcoin community, but this would set a very damaging precedent. If it becomes possible for coins to be blacklisted in this way, then it is a slippery slope toward blacklisting of other "suspicious" coins. Prevent all transactions from unknown people, so everyone has to register with the government to transact. The appropriate response to any long-term attack by miners is a hard fork to change the proof-of-work function. This fires all existing miners and allows new ones to replace them. Miners are only part of the network. If their powers are abusive, the Bitcoin community will turn against them with countermeasures such as a hard-fork and continue with miners who remain neutral.
+
+=== Flood attack
+"Overloading the network with transactions will render the network useless."
+
+It is easy to send transactions to yourself repeatedly. If these transactions fill blocks to the maximum size (1MB), other transactions would be delayed until the next block. This is made expensive by the fees that would be required after the 50KB of free transactions per block are exhausted. An attacker will eventually eliminate free transactions, but Bitcoin fees will always be low because raising fees above 0.01 BTC per KB would require spending transaction fees. An attacker will eventually run out of money. Even if an attacker wants to waste money, transactions are further prioritized by the time since the coins were last spent, so repeated attacks by spending the same coins are less effective. An attack would soon become very expensive if the only goal is to fill the network with on-chain transactions. But if the fees remain expensive for a long time, people will soon turn to alternatives such as the lightning-network.
+
+=== Fractional reserve bitcoin
+"Custodians holding bitcoin for customers will hand out, I-owe-you's for bitcoins that they do not 100% own."
+
+This probably says more about people who trust their assets to intermediaries — those who do not are fully aware of the saying; Not your keys, not your bitcoin.
+
+=== Governance
+"Bitcoin needs to be regulated."
+
+Blockchain is great at rule enforcement but does not provide at all for rule-setting. This lack of governance makes implementing innovations slow and painful. Moreover, power may get concentrated in the hands of a few (miners, in the case of Bitcoin). Regulating bitcoin is near impossible. What they can regulate are the gates between bitcoin and fiat currencies because those are centrally controlled by companies that need to abide by the law. By doing so, the effect is that these laws and regulations slow down adoption and use it for good use. And when stores stop using them because of too much recordkeeping and regulation, it will drive bitcoin unnecessary more into the illegal territory.
+
+=== Hedonic adaptation
+"People only invest in bitcoin on the false promise of getting rich quick."
+
+Hedonic adaptation, also known as hedonic treadmill, is the observed tendency of humans to quickly return to a relatively stable level of happiness despite major positive or negative events or life changes. In other words, people desire big changes like the bitcoin price going up and getting rich, will not change their happiness. Greed is driving people's expectations and making them unhappy when because they feel entitled to get rich. We can redesign this by changing the mindset of people. Bitcoin is not making you rich but only offers financial sovereignty. Even if it does, then it won't make you happier. Just focus on other sustainable aspects that will make you happy, like building relationships or learning new things. There is no single reason why people get into Bitcoin. Many who join are not interested in price, but simply seek like-minded people or the opportunity to bring value to something bigger than themselves.
+
+=== Illegal content
+"Once illegal content is written on the blockchain, it will forever be there."
+
+It is illegal in some countries to possess/distribute certain kinds of data. Since arbitrary data can be included in Bitcoin transactions, and full Bitcoin nodes must normally have a copy of all unspent transactions, this could cause legal problems. However, Local node policy generally doesn't permit arbitrary data (transactions attempting to embed data are non-standard), but steganographic embedding can still be used, although this generally limits storage to small amounts. Various ideas have been proposed to limit data storage in the UTXO set further (but are not currently being seriously considered for deployment). What is called illegal content in one country, is called free speech in another. If people disagree with the content, they can choose to ignore or selectively show on-chain content.
+
+=== Intermediaries
+"It is in the best of interest that people use intermediaries to protect them from irreversible mistakes."
+
+Working without intermediaries is cherished by a core group of Bitcoin enthusiasts. The mass audience, however, dislikes having no rights, no recourse, no guarantees, no legal coverage, nothing. They just want secure, reliable, and hassle-free access to their money and a help desk to call when they lose their password. People will still have a choice if they trust themselves more or less than an intermediary — something which they didn't always have before Bitcoin.
+
+=== Liquidity
+"Low liquidity and low volume will lead to market manipulation."
+
+If bitcoin is banned and there are no accessible markets to exchange, then the liquidity will suffer. Although liquidity does not say everything about the quality of Bitcoin as a technology, it does need to be used to be interesting. The price will always go down or up to its value. Markets will always balance out depending on supply and demand.
+
+=== Manipulation
+"In an unregulated market, the rich control it."
+
+Market manipulation. Abuse. Whales. As the years go by, Bitcoin is becoming more decentralized, and the influence of rich individuals is becoming less and less.
+
+=== Maturity
+"Bitcoin is still an early experiment."
+
+Although Bitcoin exists for nearly a decade, the code still hasn't been promoted to a 1.0 release. The question is if this ever will happen at all. This does not imply that Bitcoin is unstable or immature. But it is typical in the blockchain space where many developments such as sidechains, the lightning network, and scripts are used in production but are officially still labeled as "beta." In other words, the possibilities of the system make it so that nobody isn't 100% sure that things cannot be broken, misused, or hacked. It may take another decade before people accept bitcoin. Meanwhile, it is slowly becoming more practical and accessible every year.
+
+=== Misinformation
+"Bitcoin is only used by criminals for conducting illegal activities."
+
+If education is the way to help people make better decisions and take action, misinformation is the opposite of this. Misinformation comes in many forms. In some cases, the cause is related to a lack of education and understanding. In other cases, the information is not related to facts, but people's opinions or the interpretation of information. The worst kind of misinformation is related to propaganda. This approach has the core focus to send out one narrow perspective of information to brainwash people as if this is the only logical truth. Common places where misinformation is found, are social networks and mainstream media. Their main focus is always to get as much attention as possible. And one way of getting attention is to spread fear into people's minds. Most of the news and articles nowadays are dominated by negative news. Every time the bitcoin price reaches an all-time high, the media has its attention and focuses on the negative aspects. Recurring arguments come back, such as waste of energy, unregulated, used in criminal activities, and so on. The best way to stop misinformation is to focus on education and the successes of the past. Make information transparent, factual, and freely accessible. And these aspects just happened to suit Bitcoin just perfectly. The facts tell a different story. Bitcoin is more transparent than the creation of fiat debt or money laundering paper bills.
+
+=== Non-fungibility
+"When bitcoins used in illegal activities are be banned, they lose their fungibility."
+
+Related to compliance, when governments discriminate against the origin of bitcoins, then some will lose their fungibility. This path is a tricky slope. Take the example of drug traces on fiat paper bills. Eventually, nearly all bills will end up with tiny amounts of drug residue on them after coming in contact with other bills. The same principle applies to bitcoin. The more bitcoins will be labeled as 'tainted,' the more these bitcoins will be mixed with 'untainted' bitcoins until eventually, every transaction will contain some satoshi's used previously in a transaction labeled as illegal. Some argue that 'virgin' bitcoins will have a premium price because they are newly minted by miners. But what they forget is that the 'virgin' bitcoins of miners not only contain a coinbase transaction (new bitcoins) but also older transaction outputs from existing bitcoins that have been transacted. Therefore even 'virgin' bitcoin can never 100% pure. Practically, it is extremely hard to exclude certain bitcoins from the rest. In the future, privacy protection will only make it more difficult.
+
+=== Ossification
+"Bitcoin code is becoming ossified. Unable to adapt and too rigid."
+
+If people expect Bitcoin to change faster than it does, then they are free to fork it and modify whatever they want. If people value stability, they accept the current approach.
+
+=== Privacy & anonymity
+"Only criminals need more privacy and anonymity."
+
+Privacy is a tool to protect individuals. But like any tool, it can be used for good or worse. But for governments, privacy is a double-edged sword. Swing too far to one side, and we end up with a big-brother system that captures and processes every single move and transaction of the individual, eventually influencing and the lives of their citizens. Swing too far, the opposite side and individuals can exploit their anonymity by abusing the rules. There are a plethora of reasons why governments do not like Bitcoin. But most fears are related to not following the rules like tax-evasion, purchase of illegal drugs, or financing criminals and terrorists. So far, Bitcoin is not fully anonymous, and many "illegal transactions" (depending on the country) can be tracked and monitored. However, some governments already declared 'privacy coins' as illegal and may not be bought or sold within that country. Some exchanges already decided not to include them or even delist privacy coins. If Bitcoin developers decided to enhance Bitcoin's privacy features, be it Mimblewimble, ZK-snarks, or another variant, Bitcoin may obtain the illegal status as well. The future of privacy will remain one of the important aspects of Bitcoin, which deserves further attention and development. Unlike any other financial system, Bitcoin is open and immutable. Tracing a coin's history can be used to connect identities to addresses. Once identities have been coupled to bitcoin addresses, then this can be dangerous once this information becomes publicly known. Already people have been attacked and killed because people found out that they possessed bitcoins. That is why people need to be protected. The freedoms we have in one country is not always shared in another country. Only if we treat everybody equal, can we be all be free?
+
+=== Regulation
+"The bitcoin market needs to be regulated to protect investors."
+
+Do we need more regulatory guidance? Its decentralized nature makes it difficult to regulate. Governments and regulators may never come to like decentralized financial networks at all. A negative event, such as a price crash followed by public outcry, could trigger a regulatory crackdown. Companies operating around the edges need to stay compliant with rules and regulations. They need to do KYC and AML checks. They would have compliance officers who need to trace back the history of bitcoins and perform risk assessments if they were involved in illegal activities, according to national guidelines. Globally, countries are forming new regulations that apply to cryptocurrency possession and trading. The things that can be regulated will be regulated. That which cannot will not.
+
+=== Scalability
+"Bitcoin is unable to scale to what is needed for global payment transactions."
+
+In the early years of Bitcoin, there was little network traffic, and transactions were free or nearly free. But as network traffic increased, Bitcoin had reached its first limitations and could only handle about 4.6 transactions per second. This forced people to pay higher transaction costs or wait longer for their transactions being accepted by miners. This situation where the Bitcoin system was no longer fast and free, is probably the most frequently mentioned argument why some people say that bitcoin could never be a good global currency. Compare this to the thousands of transactions per second that can be processed by credit card providers. Or even Alibaba, which can process hundreds of thousands of transactions per second. The Bitcoin network is currently clogged, and the current level of transaction fees (average $8 in November 2017) makes it very unattractive for small payments. Consider the blockchain trilemma, which contains security, speed, and decentralization. Second-layer solutions like Lightning Network. Zero-layer or network layer solutions like bloXroute. There are multiple ways in which bitcoin can scale. However, not every transaction may appear on-chain.
+
+=== Security vulnerabilities and bugs
+"It will only be a matter of time before bitcoin will be hacked, due to its open nature."
+
+Loss of funds due to double-spending. Hash rate, centralization of mining. They can change the rules. It's possible but unlikely that a newly discovered bug or security vulnerability in the standard client could lead to a blockchain split or the need for every node to upgrade in a short timespan. For example, a single malformed message tailored to exploit a specific vulnerability, when spread from node to node, could cause the whole network to shut down in a few hours. Bugs that break user anonymity, on the contrary, have been found, since the pseudo-anonymity property of Bitcoin has been analyzed less. Starting from version 0.7.0, the Bitcoin client can be considered a mature project. The security-critical sections of the source code are updated less and less frequently, and those parts have been reviewed by many computer security experts. Also, Bitcoin Satoshi client has passed the test of being on-line for more than three years, without a single vulnerability being exploited in the wild. See Common Vulnerabilities and Exposures for a detailed list of vulnerabilities detected and fixed. If people can hack the bitcoin protocol, then the world may see a whole range of worse problems with lesser securities.
+
+=== Segmentation
+"If one major nation like China disconnects, the network will split."
+
+What if China disconnects itself from the rest of the Internet? We need to look at hash power for creating the largest chain. It is extremely likely that in this situation that information between the two chains will be synchronized. This way, the longest chain will end up as the winner.
+
+=== Sybil attack
+"Malicious people may exploit the network by adding many client nodes they control."
+
+If an attacker attempts to fill the network with clients that they control, you would then be very likely to connect only to attacker nodes. Although Bitcoin never uses a count of nodes for anything, completely isolating a node from an honest network can be helpful in the execution of other attacks. There are some ways to exploit this state, such as refusing to relay blocks and transactions from everyone or relay only blocks that they create, effectively putting you on a separate network and then also leaving you open to double-spending attacks.
+
+Bitcoin makes these attacks more difficult by only making an outbound connection to one IP address per /16 (x.y.0.0). Incoming connections are unlimited and unregulated, but this is generally only a problem in the anonymity case where you're probably already unable to accept incoming connections. Looking for suspiciously-low network hash-rates may help prevent the second one. Measures are being taken.
+
+=== Transparency 
+"If bitcoin transactions decide to hide the amounts, it will make the system susceptible to hidden inflation bugs, and potentially break the scarcity of 21 million bitcoins."
+
+Opt-in like Beam. Transparency is now being used against people. This also, to some degree, affects the fungibility of bitcoins, because some can be filtered out or not being accepted, which hurts the neutrality of Bitcoin. We need to find solutions that offer the best of both worlds. Trust the system through transparent verification of cryptography and increase the privacy of everybody.
+
+=== Tribalism 
+"Toxic communities may split the community and prevent new people from getting in."
+
+This happens when people advocate only one coin as the one true solution. Market price manipulation. Pump & Dump. ICO's. Paid/stupid YouTubers and social media experts. Media manipulation. Fear of missing out. Limited offers. How to redesign this? Instead of focussing on differences, talk about the aspects which are the same or which can be used together to strengthen both. Stimulate the creation of differences. More explorations will lead to more solutions, which will be beneficial to many more. Share knowledge, people, and code. We need to reward good behavior and ignore the bad.
+
+=== Unencrypted wallets
+"People unaware of hacking 101, run the risk of losing their money."
+
+The wallet is stored unencrypted, by default, and thus becomes a valuable target for theft. Recent releases of the Bitcoin client now supports encryption to protect the wallet data, though the user must opt-in. New wallets vulnerable with old passwords via backups
+An old copy of a wallet with its old password is often easily retrievable via an existing backup facility (particularly Apple Time-Machine): draining that old wallet, with its old password, drains the current wallet with the current password -- this is contrary to most non-technical users expectation of what 'change the password on your wallet' should mean following password compromise. An initial solution is to mandate (either in code or as expressed policy) that changing a wallet's password causes (or asks the user to cause) the creation of a new wallet with new addresses, and the sending of existing sums to them. Backed-up copies of the original wallet with the original password would then be empty, should they be compromised. On the downside, the password-changing process would potentially take much longer, cost a transaction fee or more, and - initially at least - the new wallet is no longer backed up. On the upside, non-technical users won't find their wallets drained from security compromises they believed they had closed, nor be required to locate existing backups of a wallet to destroy them. Eventually, the good and secure wallets will drive out the worse, making the whole ecosystem safer because of natural selection.
+
+=== Volatility
+"People cannot handle the current market volatility and will leave forever."
+
+While the value of "ordinary" money is managed by the central bank, Bitcoin's supply is fixed, and its value depends very much on demand, which makes it inherently volatile. Change and uncertainty scare most people because something, mostly outside of their control, affects them. See also loss aversion. Those who do leave probably entered bitcoin for the wrong reasons and lost more than they could afford.
