@@ -6,6 +6,17 @@ The book describes principles and patterns from the field of user-experience (UX
 
 The book is suitable for technical and non-technical readers with a basic understanding of the fundamentals of Bitcoin and other open blockchains.
 
+## Contents
+- [Preface](preface.asciidoc)
+- [Chapter 1 - Bitcoin vision](ch01.asciidoc)
+- [Chapter 2 - Strategic design principles](ch02.asciidoc)
+- [Chapter 3 - Design patterns](ch03.asciidoc)
+- [Chapter 4 - Dark patterns](ch04.asciidoc)
+- [Chapter 5 - Destroying Bitcoin](ch05.asciidoc)
+- [Chapter 6 - Building on Bitcoin](ch06.asciidoc)
+- [Chapter 7 - Don't Trust, Verify](ch07.asciidoc)
+- [Glossary](glossary.asciidoc)
+
 ## Contributing
 
 Review and contributions to this book are more than welcome. More about this, coming soon!
