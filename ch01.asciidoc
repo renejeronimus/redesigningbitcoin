@@ -1,0 +1,37 @@
+[ch01_bitcoin_vision]
+== Bitcoin vision
+As a brand, millions of people have at least heard of bitcoin as a digital currency. But being a digital currency is probably the least exciting aspect of Bitcoin. To truly understand why Bitcoin is so much more than that, let's start at the beginning.
+
+=== Origin story
+The Bitcoin origin story began during the financial crisis of 2007-2008. Property prices evaporated, banks collapsed, companies went bankrupt, and millions of people lost their jobs or their houses. It may have started in the United States, but in this hyper-connected economy, it did not take long before the entire world felt the pain of an economic recession. Trust in banks and financial institutions reached an all-time low.
+
+Meanwhile, somewhere else, a man, a woman, or a group of people imagined a different world; A world where people could exchange money without the need for banks and other intermediaries. An alternative to government-issued fiat currencies. And a world where people are in control over their money, their privacy, and their choices. That someone we now know under the pseudonym, Satoshi Nakamoto.
+
+Probably the first appearance of Satoshi Nakamoto was on October 31st, 2008. On the Cryptography Mailing list at metzdowd.com, Satoshi wrote: "I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party. And with these words, the Bitcoin whitepaper was introduced and shared with the public.
+
+We have only bits and pieces of information about what happened before October 31st. But we know that on January 3rd, 2009, the software started with the intention never to stop running, and mining of the very first Bitcoin block was a fact. And within this genesis block, a piece of text was included, which says: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks." This reference to a news article of that exact day, quietly told the world that something new had appeared — an alternative based on cryptographic proof instead of third-party trust.
+
+Not long after, on January 8th, 2009, the first version of the Bitcoin software was announced on The Cryptography Mailing list. People could now see, download and run a Bitcoin node themselves. And with that, Bitcoin started its journey all around the world.
+
+And what happened to Satoshi Nakamoto? After being active on several forums, on December 12th, 2010, Satoshi Nakamoto published the last message under that pseudonym on Bitcointalk. Asides from email exchanges dating back to April 2011, all of the later interactions coming from Satoshi's accounts lie under a shade of doubt cast by the email account allegedly compromised in a hack. Why Satoshi disappeared is still a bit of a mystery. There are some clues, but most of them only lead to more questions than answers.
+
+=== Vision or Mirage?
+Ask a random number of Bitcoin advocates to explain the Bitcoin vision, and you'll get an arbitrary number of explanations for an answer. Why is this? Did Satoshi not clearly share and explain the end-goal? 
+
+One explanation which people often refer to is the message left inside the genesis block; "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks." This message could both seen as a financial and a political statement. With the birth of Bitcoin on that exact day, it introduced an alternative to the failing of financial institutions.
+
+But did Bitcoin really emerge as a solution at the right time during the financial crisis? Or did the financial crisis coincidentally appear at the right time for Bitcoin? Going through everything Satoshi publicly writing about Bitcoin, we notice a couple of things.
+
+Reading between the lines, early writings of Satoshi, let us believe that technology came first, followed by politics like Libertarianism. More than once, the response includes "I'm better with code than with words though." And speaking in the plural when political concepts need further explanations; "It's very attractive to the libertarian viewpoint if we can explain it properly."
+
+The second clue is the order in which Satoshi created the software and the whitepaper. Although the whitepaper was released before the software went live, Satoshi mentions, "I had to write all the code before I could convince myself that I could solve every problem, then I wrote the paper." This quote meant that the whitepaper was merely a formality of an early proof-of-concept. Most of the code would have already been written and tested on Satoshi's computer(s) before Satoshi made its first appearance. 
+
+But in another reply, the following comment reveals even more. "I believe I've worked through all those little details over the last year and a half while coding it, and there were a lot of them." This sentence could imply that Satoshi has been working on Bitcoin before the start of the financial crisis. In a later post, he confirmed this by saying, "(I've been working on bitcoin's design) since 2007. At some point, I became convinced there was a way to do this without any trust required at all and couldn't resist to keep thinking about it" Assuming this is true, then from a vision point of view, Bitcoin might have been a solution waiting for the right problem at the right moment.
+
+But there is another argument to be made that Bitcoin lacked a clear vision from the start. Without a doubt, Bitcoin was not the first non-government issued digital money. The whitepaper explicitly mentions some predecessors, such as "b-money" and "Hashcash." Either one of those could easily have been an inspiration by their successes and failures. Other technological influences mentioned by Satoshi were Napster, Gnutella, and Tor networks. Therefore like most brilliant solutions, they build upon other ideas as well as combining technologies from different fields. Bitcoin just happened to be a perfect combination.
+
+In quite some conversations, Satoshi talks about the lack of trust in centralized solutions, which leads to central authorities who control and regulate assets. But in typical vision statements, there is a problematic challenge involved. However, Satoshi already proposed the solution to most, if not all, of the problems. Does this mean that the vision died with the solution offered?
+
+There is a counter-argument for this to be made. Within the field of design, there is a principle called "closure." Also, within the field of psychology, this is known as one of the Gestalt principles of perception. In brief, closure is a tendency to complete incomplete or interrupted forms and patterns. And what makes this pattern so interesting, is that the lack of information given by Satoshi leaves gaps and room for interpretation. Because Satoshi is no longer answering all sorts of questions, people will take the snippets of information and connect the dots themselves.
+
+Perhaps this was is the unintended vision Satoshi left behind; to leave room for interpretation about the future of Bitcoin. And in true open, decentralized style, allowing everyone to build upon Bitcoin and create new visions for an always-changing world.
